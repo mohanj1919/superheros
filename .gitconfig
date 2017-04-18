@@ -1,0 +1,35 @@
+[core]
+	editor = notepad
+[user]
+	name = mohanj1919
+	email = mohankumar1919@gmail.com
+
+[diff]
+    tool = bc3
+[difftool "bc3"]
+    cmd = C:\Program\\ Files\Beyond Compare 4\BComp.exe \"$LOCAL\" \"$REMOTE\"
+
+[merge]
+    tool = bc3
+[mergetool "bc3"]
+    trustExitCode = true
+    cmd = C:\Program\\ Files\Beyond Compare 4\BComp.exe -merge -result=\"$MERGED\" \"$LOCAL\" \"$BASE\" \"$REMOTE\"
+
+[core]
+	editor = notepad
+[user]
+	name = mohanj1919
+	email = mohankumar1919@gmail.com
+
+[diff]
+    tool = diffmerge
+[difftool "diffmerge"]
+    cmd = C:/Program\\ Files/SourceGear/Common/DiffMerge/sgdm.exe \"$LOCAL\" \"$REMOTE\"
+
+[merge]
+    tool = diffmerge
+[mergetool "diffmerge"]
+    trustExitCode = true
+    cmd = C:/Program\\ Files/SourceGear/Common/DiffMerge/sgdm.exe -merge -result=\"$MERGED\" \"$LOCAL\" \"$BASE\" \"$REMOTE\"
+
+

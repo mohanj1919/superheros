@@ -1,4 +1,4 @@
-git ssh configuration 
+git ssh configuration instructions
 
 1. open git shell
 2. check existing ssh keys: 
