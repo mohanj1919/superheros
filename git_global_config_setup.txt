@@ -2,4 +2,4 @@ git config --global user.name "<git_user_name>"
 
 git config --global user.email "<git_account_email_address>"
 
-git config --global core.editor "default_editor(notepad/gedit/sublime/vscode)"
+git config --global core.editor "default_editor(notepad/gedit/sublime/vscode)" 
